@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TSASoftware</string>
+    <string name="button_search">Search</string>
+    <string name="button_your_authors">Button_Your_Authors</string>
+    <string name="buttonupcomingbooks">ButtonUpcomingBooks</string>
+
 </resources>
