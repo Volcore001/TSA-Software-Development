@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button SearchAuthors;
+    Button SearchAuthors, ButtonYourAuthors, ButtonUpcomingBooks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         SearchAuthors = findViewById(R.id.ButtonSearch);
+        ButtonYourAuthors = findViewById(R.id.buttonYourAuthors);
+        ButtonUpcomingBooks = findViewById(R.id.button_upcoming_books);
 
 
         SearchAuthors.setOnClickListener(new View.OnClickListener() {
