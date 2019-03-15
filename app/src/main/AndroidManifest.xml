@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.leon.tsasoftware">
+    package="com.leon.scaapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <supports-screens
+        android:xlargeScreens="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +23,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Search"></activity>
+        <activity android:name=".OptionFromOne"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ScheduleActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".FormMessages"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Contact_Activity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ChooseMessageType"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".godwin_sun_Messages"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".WCCCMessages"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".SpecialMeetingMessages"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".StephenKuangMessages"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".BibleStudyMessages"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Listen_To_Message"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Offline_Activities"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

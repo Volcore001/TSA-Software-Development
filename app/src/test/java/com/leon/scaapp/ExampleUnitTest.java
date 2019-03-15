@@ -1,4 +1,4 @@
-package com.leon.tsasoftware;
+package com.leon.scaapp;
 
 import org.junit.Test;
 

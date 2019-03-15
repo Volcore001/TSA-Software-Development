@@ -1,4 +1,4 @@
-package com.leon.tsasoftware;
+package com.leon.scaapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.leon.tsasoftware", appContext.getPackageName());
+        assertEquals("com.leon.scaapp", appContext.getPackageName());
     }
 }
